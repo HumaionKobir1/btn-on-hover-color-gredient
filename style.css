@@ -1,0 +1,41 @@
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btn{
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    width: 220px;
+    font-family: "montserrat", sans-serif;
+    border-radius:  6px;
+    text-transform:  uppercase;
+    cursor: pointer;
+    background-size: 200%;
+    color: #fff;
+    transition: 0.6s;
+}
+.btn1{
+    background-image: linear-gradient(to left, #FFC312, #EE5A24, #FFC312)
+}
+.btn2{
+    background-image: linear-gradient(to left, #27ae60, #9b59b6, #1abc9c)
+}
+.btn3{
+    background-image: linear-gradient(to left, #d35400, #B53471, #0652DD)
+}
+.btn4{
+    background-image: linear-gradient(to left, #1B1464, #006266, #6F1E51)
+}
+
+.btn:hover{
+    background-position: right;
+}
